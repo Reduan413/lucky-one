@@ -1,0 +1,15 @@
+.header{
+    height:100px;
+    background-color: rgba(139, 218, 241, 0.459);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.header img{
+    width: 12%;
+    padding-top: 15px;
+}
+.header h1{
+    color: rgba(79, 158, 231, 0.972);
+    font-size:50px;
+}

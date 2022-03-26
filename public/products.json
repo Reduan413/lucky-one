@@ -1,0 +1,74 @@
+[
+  {
+    "id": "l1-ch-n4020",
+    "name": "Chuwi HeroBook",
+    "price": 31470,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/chuwi/herobook/herobook-pro/herobook-pro-2-500x500.jpg"
+  },
+  {
+    "id": "l2-le-82hs0",
+    "name": "Lenovo IdeaPad Flex",
+    "price": 75000,
+    "img": "https://www.globalbrand.com.bd/image/cache/catalog/Lenovo%20Laptop/Lenovo-IdeaPad-Flex-5i-(-82HS0130IN)-11th-Gen-Core-i3-Laptop-800x800.jpg"
+  },
+  {
+    "id": "l3-hp-n4020",
+    "name": "HP 15s-du1114TU",
+    "price": 35810,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/ex215-52-384m/ex215-52-384m-001-500x500.jpg"
+  },
+  {
+    "id": "l4-le-15itl6",
+    "name": "Lenovo IdeaPad 3",
+    "price": 76000,
+    "img": "https://www.globalbrand.com.bd/image/cache/catalog/Lenovo%20Laptop/lenovo-ideapad-slim-3i-14-arctic-grey3-800x800.jpg"
+  },
+  {
+    "id": "l5-ac-384m",
+    "name": "Acer Extensa 15 EX215-52-384M",
+    "price": 44490,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du1114tu/15s-du1114tu-02-500x500.jpg"
+  },
+  {
+    "id": "l6-as-x515ea",
+    "name": "ASUS VivoBook 15",
+    "price": 51500,
+    "img": "https://www.globalbrand.com.bd/image/cache/catalog/ASUS%20LAPTOP/ASUS-Vivobbok-15-M515DA-2-500x500.jpg"
+  },
+  {
+    "id": "l7-as-x515fa",
+    "name": "Asus VivoBook 15 X515FA",
+    "price": 46200,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-05-500x500.jpg"
+  },
+  {
+    "id": "l8-as-ux363ja",
+    "name": "Asus Zenbook Flip 13",
+    "price": 70000,
+    "img": "https://www.globalbrand.com.bd/image/cache/catalog/ASUS%20LAPTOP/Zenbook-Flip-13-UX363-800x800.jpg"
+  },
+  {
+    "id": "l9-le-81we0",
+    "name": "Lenovo IdeaPad Slim",
+    "price": 48830,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ip-slim/ip-slim-15-500x500.jpg"
+  },
+  {
+    "id": "l10-hp-fq264",
+    "name": "HP 15s-fq2644TU",
+    "price": 59130,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-fq2644tu/15s-fq2644tu-02-500x500.jpg"
+  },
+  {
+    "id": "l11-msi-a11sek",
+    "name": "MSI Stealth 15M",
+    "price": 140000,
+    "img": "https://www.techlandbd.com/image/cache/catalog/Laptop/Msi/Stealth-15M/MSI-Stealth-15M-A11SX-laptop-2-1000x1000.jpg"
+  },
+  {
+    "id": "l12-wa-zx3701",
+    "name": "Walton TAMARIND",
+    "price": 33790,
+    "img": "https://www.techlandbd.com/image/cache/catalog/Laptop/Walton/Prelude-N50/Prelude-N5000-laptop-3-550x550.jpg"
+  }
+]
