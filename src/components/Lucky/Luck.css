@@ -5,6 +5,40 @@
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
+    gap: 15px;
     margin: 20px;
+}
+.cart-container{
+    background-color: #c7f0ff;
+}
+.carts{
+    position: sticky;
+    top: 0;
+    padding :10px;
+}
+.choose-btn, .remove-btn {
+    width:100%;
+    margin-top: 10px;
+    height:40px;
+    border: none;
+    border-radius: 15px;
+    bottom: 0;
+    font-size:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.choose-btn:hover, .remove-btn:hover{
+    color:rgb(66, 65, 65);
+} 
+.choose-btn{
+    color: #f55201;
+    background-color: #f7ec8a;
+}
+.remove-btn{
+    color:rgb(241, 19, 19);
+    background-color: rgb(248, 221, 217);
+}
+.btn-text{
+    margin-right: 15px;
 }

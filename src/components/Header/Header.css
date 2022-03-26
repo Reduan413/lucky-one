@@ -1,6 +1,6 @@
 .header{
     height:100px;
-    background-color: rgba(139, 218, 241, 0.459);
+    background-color: #05ada7a1;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -10,6 +10,6 @@
     padding-top: 15px;
 }
 .header h1{
-    color: rgba(79, 158, 231, 0.972);
+    color: #0f4c81;
     font-size:50px;
 }

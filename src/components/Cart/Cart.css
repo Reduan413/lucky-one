@@ -1,0 +1,25 @@
+.cart{
+    padding:5px 10px;
+}
+.cart-card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    background-color: #8ee0ff;
+    border-radius: 15px;
+    height:50px;
+}
+.cart-img{
+    width: 20%;
+}
+.cart-img img{
+    width:70%;
+    border-radius:50%;
+}
+.cart-title{
+    width: 60%
+}
+.cart-btn{
+    width: 15%;
+}
