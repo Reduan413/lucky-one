@@ -1,5 +1,5 @@
 # Luck One React App
 
-[Luck One React App](https://github.com/facebook/create-react-app).
+[Luck One React App Link](https://lukey-app.netlify.app/).
 
 

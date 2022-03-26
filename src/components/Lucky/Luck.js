@@ -23,22 +23,24 @@ const Luck = () => {
       if (!exists) {
         newCart = [...carts, selectedProduct];
       } else {
-        alert("this alray here");
+        alert("This Product has already been selected");
         newCart = [...carts];
       }
 
       setCart(newCart);
     } else {
-      alert("maxima 4 item selected");
+      alert("You selected maximum 4 products");
     }
   };
   //handle choose product
   const handleChooseOne = (carts) => {
     const cartLength = carts.length;
-    let randomNum = Math.floor(Math.random() * cartLength);
-    const choose = carts[randomNum];
-    sethooseProduct(choose);
-    toggle();
+    if (cartLength > 0) {
+      let randomNum = Math.floor(Math.random() * cartLength);
+      const choose = carts[randomNum];
+      sethooseProduct(choose);
+      toggle();
+    }
   };
   //handle delete individual product
   const handleDeleteProduct = (id) => {
@@ -49,11 +51,14 @@ const Luck = () => {
 
   //handle delete all products
   const handleDeleteAll = () => {
-    setCart([]);
-    sethooseProduct([]);
-    toggle();
+    const cartLength = carts.length;
+    if (cartLength > 0) {
+      setCart([]);
+      sethooseProduct([]);
+      setShow(false);
+    }
   };
-  //handle show 
+  //handle show
   const toggle = () => setShow(!show);
 
   return (
@@ -82,16 +87,19 @@ const Luck = () => {
             <FontAwesomeIcon icon={faShuffle} />
           </button>
           <button className="remove-btn" onClick={() => handleDeleteAll()}>
-            <p className="btn-text">Remove All</p>
+            <p className="btn-text">Choose Again</p>
             <FontAwesomeIcon icon={faTrashCan} />
           </button>
-          {
-              show?<div className="choose">
+          {show ? (
+            <div className="choose">
               <h2>Your choose Laptop</h2>
-              <LuckyItem chooseProduct = {chooseProduct} close= {toggle}></LuckyItem>
-            </div>:null
-          }
-          
+              <LuckyItem
+                key={chooseProduct?.id}
+                chooseProduct={chooseProduct}
+                close={toggle}
+              ></LuckyItem>
+            </div>
+          ) : null}
         </div>
       </div>
     </div>

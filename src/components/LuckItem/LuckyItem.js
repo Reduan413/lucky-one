@@ -5,12 +5,11 @@ import './LuckyItem.css'
 
 const LuckyItem = (props) => {
     const{close,chooseProduct} = props;
-    const {img, name} = chooseProduct;
   return (
     <div className="chooseCard">
-      <img src={img} alt="" />
+      <img src={chooseProduct?.img} alt="" />
       <div className="chooseCard-info">
-        <h4 className="chooseCard-title">{name}</h4>
+        <h4 className="chooseCard-title">{chooseProduct?.name}</h4>
       </div>
       <button className="chooseCard-btn" onClick={() => close()}>
         <FontAwesomeIcon icon={faXmark} />
