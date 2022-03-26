@@ -1,0 +1,50 @@
+.chooseCard{
+    width: 200px;
+    height:200px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.chooseCard img{
+    width:90%;
+    height:80px;
+    border-radius: 8px;
+    margin: 7px;
+}
+.chooseCard-info{
+    margin: 0, 14px;
+    padding: 10px;
+}
+.chooseCard-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.chooseCard-btn{
+    width:100%;
+    background: #e24e62;
+    border: none;
+    border-radius:8px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.chooseCard-btn .btn-text{
+    margin-right:5px;
+}
+.chooseCard-btn:hover{
+    color: red;
+    background:rgb(235, 209, 171);
+}
+@media only screen and (max-width:688px){
+    .chooseCard{
+        width: 180px;
+    }
+}
