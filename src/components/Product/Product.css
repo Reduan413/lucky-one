@@ -1,0 +1,51 @@
+.card{
+    width: 300px;
+    height:435px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    position: relative;
+}
+.card:hover{
+    box-shadow: 15px 15px 15px #aaaaaa;
+}
+.card img{
+    width:286px;
+    height:286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+.card-info{
+    margin: 0, 14px;
+    padding: 10px;
+}
+.card-info p{
+    margin-top: 5px;
+    margin-bottom: 0;
+    
+}
+.card-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.card-btn{
+    width:100%;
+    background: #FFE0B3;
+    border: none;
+    border-radius:0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-btn .btn-text{
+    margin-right:5px;
+}
+.card-btn:hover{
+    background:orange;
+}
